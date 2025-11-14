@@ -6,11 +6,17 @@ navigation: 3
 
 # When would you use a RaC approach?
 
+## Equivalence to written legislation
+
 Firstly, it is worth saying that there are, broadly speaking, two types of rules (leg/reg or otherwise): prescriptive and judgement-based. 
 
 Prescriptive rules are definitive. For example rules that set thresholds, objective requirements, are numerical or otherwise are not very subjective. Prescriptive rules are not meant to require judgement, but in reality a little interpretation is almost always needed. For example, does "must be over 18" mean from midnight that day, or the end of that day, or from 0+18 years, or 0+17 years, like in countries where people are conssidered 1 at birth versus 0 at birth. In any case, prescriptive rules are most suitable for RaC systems because they help assure consistent application of a rule which is meant to be consistently applied.
 
 Judgement-based rules are ones that require someone accountable to make a judgement. Whether in regulation or legislation, there is a person defined who is directly accountable for the judgement made, which means you should try to preserve the ability for an appropriate person to make a judgement, rather than automating or codifying these rules. Over time judgements accrue, which can provide patterns you can encode, such as "if you meet criteria x, y and z, then the judgement is likely n", but often judgement-based rules are meant to assure actual human judgement, therefore these types of rules are less appropriate for RaC.
+
+Law is a living artifact, and anglo-saxon law allows for adjustments and flex. The formal judicial process is ponderous and expensive. For edge cases (enclaves or protected categories) it may be easier to evolve co-regulations which are not inconsistent with the original intent, but can be implemented quicker/faster/cheaper. For scoffalaws, it may be feasible to draft self-regulations and provided the original intent is promulgated and there is assurance of equivalence, opt out of the origin RAC.
+
+# Use Cases: Compliance-Assurance-Testing
 
 There are three key use cases for creating a Rules as Code repository as part of your stack/system:
 1. When you need to demonstrate compliance to laws (regulation, legislation) - for instance you may run software for financial institutions, or a company needing to demonstrate environmental compliance, or you are a government department needing to ensure legality of decisions made in your systems (to be compliant to Administrative Law). In any case where you need to demonstrate compliance, it isn't enough to say "we have a compliant system". You need to be able to trace your actions or decisions back to which rules they are compliant with. You can either do this manually, with an army of compliance officers verifying outcomes against the law (which is both expensive and subject to human error or inconsistency), or you can build proactive explainability and compliance into your software. Having the rules you need to comply to available as a utility provides a simplified way to to consume and test against those rules, otherwise compliance becomes a very expensive business, whether in legislation or regulation.
