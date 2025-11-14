@@ -52,3 +52,16 @@ Starting from a logic model, with an interdisciplinary, multicultural approach, 
 * What does the citizen need to appeal the decision?
 * What are the checks, balances, and oversights? How would you know if your system is helping or hurting people?
 * How can you trace decisions back to their legal authorities?
+
+# Aspirations
+
+This computational law variant (OpenFish) aims to extend OpenFISCA architecture to support
+
+- clarification of transactional boundaries via reasoned jurisprudence
+- explore duality of malicious cross-border activities in context of self-help
+- diffusion or mapping of anglo-saxon concepts into non-common law
+
+We do this by considering 3 exemplars or hypotheticals:
+1. The AU/NZ trans-Tasman treatment (touch jurisdiction)
+2. The Hanoi Convention on Cybercrime (hopscotch jurisdiction)
+3. Autonomous Trust-like arrangements over digital assetsz
