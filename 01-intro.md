@@ -19,15 +19,22 @@ After working on domestic rules, we hope to work with others to create internati
 
 # Rules, Rues and Rulings
 
+## Proscription vs Praxis
 We know from experience that often, in many countries, internal business/software systems in government departments do not distinguish the legal rule (legislation/regulation) from operational rules, and this results in operational rules sometimes contradicting the law. A simple business example of how this solution can help – a government/nation's Tax authority exposes tax-law-as-code to industry, leading accounting/ERP software providers, i.e.; SAP, Xero, Quickbooks, etc, who are then able to simply integrate with the authority's RAC APIs for 'always current, always relevant, always lawful' verifiable access to tax laws. Another example is the first service we built, where providing the legal eligibility to services or benefits in a user friendly form helps people to exercise their rights with social service departments.
 
+# Legal Mistakes, Errors or Inconsistency
+
 Critically, the same disconnect between legal rules and operational rules in developing countries often leads to deeply unjust outcomes for the most vulnerable. It allows space for corruption (unintended or otherwise), misinterpretation, inequity, administrative obscurity, and of course, people not getting help when they most need it. RAC helps here by providing a means for communities to test government decisions against the law, for better access to social justice, connecting regulators and their systems back to the place where they get their authority from – the people.
+
+# Feedback and Finality
 
 RAC is a necessary part of a modern democracy, a critical component for digital public infrastructure that the whole society can rely upon. And while rules as code should never be considered authoritiative (the actual human readable law is the true authority), a community RAC repository still provides a reliable reference implementation to achieve everything above, in alignment with the principle of modular architecture and decentralisation. Right now, each time a rule is changed, 3rd party business systems, government, industry, or otherwise, need to go through an expensive onerous software release/change management process. If these rules were provided as code, then implementation would be faster, cheaper and more consistent. We could also have genuinely test driven development of rules in the first place, resulting in Better Rules.
 
 # Principles
 
 RAC also supports and aligns to the principles of common/shared platforms and "whole of government" architectures for many developed digital nations/jurisdictions, (e.g.; Australian gov policy/framework: https://www.dta.gov.au/whole-government-architecture) as well as enabling developing nations to start with equity, transparency, inclusive accountability and human and machine-readable code in the foundations of their RAC. 
+
+In terms of governance, RAC sits between top-down constitutional assent and hum'in'loop where the public has a source of (equi-legislative) truth and freedom of assent (co-regulation) for competitive policy implementation. This helps to surface edge-cases, close jurisdictional gaps, and identify unjust situations where the letter of the law contravenes its morral underpinnigs.
 
 # Outcomes
 
@@ -39,17 +46,9 @@ The benefits of openly available RAC are:
 * Ability to develop test-driven laws/rules
 * Ability to model and continuous test, monitor and manage laws/rules, in an agile and evidence driven way
 
-Starting from a logic model, with an interdisciplinary, multicultural approach, co-drafting in both natural and computer languages creates new opportunities for monitoring and appealing. Finally, it provides a resource for anyone to adopt a RAC approach in their projects. In particular, those focused on reducing corruption and building trustless systems, will find it easier to communicate with governments and demonstrate their value proposition using a RAC approach, with this platform as a reference model. This repository will support their pitch to institutions that they are currently missing a valuable opportunity to create traceable, trustworthy, and equitable application of legislation across systems. With examples of solutions in hand, they will be able to ask questions such as; How do you audit in real-time? What does the citizen need to appeal the decision? What are the checks, balances, and oversights? How would you know if your system is helping or hurting people? How can you trace decisions back to their legal authorities?
+Starting from a logic model, with an interdisciplinary, multicultural approach, co-drafting in both natural and computer languages creates new opportunities for monitoring and appealing. Finally, it provides a resource for anyone to adopt a RAC approach in their projects. In particular, those focused on reducing corruption and building trustless systems, will find it easier to communicate with governments and demonstrate their value proposition using a RAC approach, with this platform as a reference model. This repository will support their pitch to institutions that they are currently missing a valuable opportunity to create traceable, trustworthy, and equitable application of legislation across systems. With examples of solutions in hand, they will be able to ask questions such as; 
 
-# Aspirations
-
-This computational law variant (OpenFish) aims to extend OpenFISCA architecture to support
-
-- clarification of transactional boundaries via reasoned jurisprudence
-- explore duality of malicious cross-border activities in context of self-help
-- diffusion or mapping of anglo-saxon concepts into non-common law
-
-We do this by considering 3 exemplars or hypotheticals:
-1. The AU/NZ trans-Tasman treatment (touch jurisdiction)
-2. The Hanoi Convention on Cybercrime (hopscotch jurisdiction)
-3. Autonomous Trust-like arrangements over digital assets
+* How do you audit in real-time?
+* What does the citizen need to appeal the decision?
+* What are the checks, balances, and oversights? How would you know if your system is helping or hurting people?
+* How can you trace decisions back to their legal authorities?
