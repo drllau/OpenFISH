@@ -20,19 +20,20 @@ There are three key use cases for creating a Rules as Code repository as part of
 
 # OpenFish Extensions
 
-Going all-in on Testing, we consider the broader socio-legal context in that trade of digital services benefit from consistency. In particular a testbed is extremely valuable for identifying legal mistakes, errors or inconsistenncies between differentt supposedly interoperable RACs. For example something as simple as "[resident](https://www.oed.com/dictionary/resident_adj?tab=factsheet#25947835)" hits multiple _legal_ and -te ao Māori _spiritual_ interpretations:
-- `ordinarily resident` - habitual locale of sleep/work;
-- `tax resident` - subject to govt tarrifs, imposts and demands;
+Going all-in on testing, we consider the broader socio-legal context in that cross-border trade of digital services benefit from consistency. In particular a testbed is extremely valuable for identifying legal mistakes, errors or inconsistenncies between different, but supposedly interoperable, RACs. For example something as simple as "[resident](https://www.oed.com/dictionary/resident_adj?tab=factsheet#25947835)" hits multiple _legal_ and [te ao Māori](## "spiritual worldview") interpretations:
+- `ordinarily resident` - intention or fact of establishing a permanent abode (Crimes Act 1961 [§4](https://www.legislation.govt.nz/act/public/1961/0043/194.0/DLM328020.html));
+- `tax resident` - subject to govt tarrifs, imposts and [duties](https://www.ird.govt.nz/-/media/project/ir/home/documents/forms-and-guides/ir200---ir299/ir295/ir295.pdf) but alleviated by double-taxation treaties; 
 - visa resident = state administered legal _artifact_ that embodies revocable privilege of abode with discretionary work rights;
-- ahi kā -  collective linkage to whenua (land) via proactive maintenance, can be thought of rural Amish with 入土为安.
+- ahi kā -  collective linkage to [whenua](## "land and underlying spirtual essence") via proactive maintenance, can be thought of rural Amish with 入土为安.
 
-<details>
-  <summary>te ao Maori worldview</summary>
 ```diff
 ! Kei raro i te tarutaru, te tuhi o ngā tū puna 
 + The signs or marks of the ancestors are embedded below the roots of the grass and the herbs
 ```
-is akin to the chinese custom of returning ashes to ancestral motherland so the spirit forms a continuing connection with the clan. Residency is not just the mere physical presence, but the whakapapa (connection/relation) to social group/hierarchy and collective duties to kaitiaki (stewardship).  A Golden visa (investment) might confer pro-forma citizenship at end of migration pathway but if absentee landlord bunkered on a rural retreat, it is contrary to the principles of kaitiakitanga (relationship to people and land).
+
+<details>
+  <summary>because Te Ao Maori worldview ... </summary>
+this is is akin to the chinese custom of returning ashes to ancestral motherland so the spirit forms a continuing connection with the clan. Residency is not just the mere physical presence, but the [whakapapa](## "connection/relation") to social group/hierarchy and collective duties to [kaitiaki](## "stewardship or guardianship to locale").  A Golden visa ([investment](https://www.immigration.govt.nz/visas/active-investor-plus-visa/)) might confer pro-forma citizenship at end of migration pathway but an absentee landlord bunkered on a rural [retreat](https://www.mdpi.com/2071-1050/13/15/8161), is fundamentally alien to the principles of [kaitiakitanga](## "relationship to people and country").
 </details>
 
-Governments (quite rightly) object to people who gain all the social benefits without a fair contribution to provision of public goods that sustain/subsidise such open society (cf [parachute kid](https://www.oed.com/search/dictionary/?scope=Entries&q=parachute+kid). Comparative legal research attempts to harmonise definitions, converge in equivalents, and work towards the comity of nations and their legal systems, if not necessarily policies. We can hypothetically model the Treaty of Waitangi as a parallel eco-currency (eco/socio-legal capital as o ratou taonga katoa) over the EEZ. OpenFISH explores necessary extensions to ground alternative rulesets based on kaitiakitanga as co-regulatory elective regimes.
+Governments (quite rightly) object to people who gain all the social benefits without a fair contribution to provision of public goods that sustain/subsidise such open society (cf [parachute kid](https://www.oed.com/search/dictionary/?scope=Entries&q=parachute+kid)). This is equating visa residency as paid homestay, rather than invited [kith](https://www.oed.com/dictionary/kith_n?tab=meaning_and_use). Comparative legal research attempts to harmonise definitions, converge to equivalents, and work towards the comity of nations and their legal systems, if not necessarily policies. We can hypothetically model the Treaty of Waitangi as a parallel eco-currency (eco/socio-legal capital as o ratou taonga katoa) over the EEZ. OpenFISH explores necessary extensions to ground alternative rulesets based on kaitiakitanga as co-regulatory elective regimes.
